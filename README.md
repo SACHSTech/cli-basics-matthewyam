@@ -13,12 +13,12 @@ Perform the following commands in order. Use TAB (autocomplete whenever necessar
 8. make a copy of `myfile.txt`, call it `myfile_copy.txt`
 9. list the contents of the `CLIBasicsFolder` directory
 10. rename `myfile_copy.txt` to `myfile2.txt`
-11. move the `myfile2.txt` to the home(~) directory
-12. list the contents of the home(~) directory
+11. move the `myfile2.txt` to the parent directory of `CLIBasicsFolder`
+12. list the contents of the parent directory of `CLIBasicsFolder`
 13. change directory to the parent directory of `CLIBasicsFolder`
 14. from your current folder and without changing back to the `CLIBasicsFolder` delete the `myfile.txt` file that is inside `CLIBasicsFolder`
 15. delete `CLIBasicsFolder`
-16. list the contents of the home(~) directory
+16. list the contents of ypur project folder
 
 
 Copy your terminal shell session and paste it into the `TerminalSession.txt` file.
