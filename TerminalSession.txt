@@ -1,1 +1,33 @@
-
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main) $ pwd
+/workspaces/cli-basics-matthewyam
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main) $ mkdir CLIBasicsFolder
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main) $ cd ./CLIBasicsFolder/
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main) $ touch myfile.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ echo Matthew Yam ICS4Ub >> myfile.txt 
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ cat myfile.txt 
+Matthew Yam ICS4Ub
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt 
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ ls
+myfile2.txt  myfile.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ mv myfile2.txt ../
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ ls ../
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam/CLIBasicsFolder (main ✗) $ cd /workspaces/
+@matthewyam ➜ /workspaces $ ls
+cli-basics-matthewyam
+@matthewyam ➜ /workspaces $ cd cli-basics-matthewyam/
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ ls
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ rm ./CLIBasicsFolder/myfile.txt 
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ ls ./CLIBasicsFolder/
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ rmdir ./CLIBasicsFolder/
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ ls
+myfile2.txt  README.md  TerminalSession.txt
+@matthewyam ➜ /workspaces/cli-basics-matthewyam (main ✗) $ 
